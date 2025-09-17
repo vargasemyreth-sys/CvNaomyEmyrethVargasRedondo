@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV Naomy Emyreth Vargas Redondo - Odontología</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+    :root {
+      --rosa-palo: #d8a1b4;
+      --azul-profesional: #4a90e2;
+      --texto-principal: #333;
+      --fondo-claro: #f9f5f7;
+      --gris-suave: #777;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--fondo-claro);
+      margin: 0;
+      padding: 20px;
+      color: var(--texto-principal);
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 12px;
+      padding: 40px 50px;
+    }
+
+    header {
+      border-bottom: 4px solid var(--rosa-palo);
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 15px;
+    }
+
+    header h1 {
+      font-weight: 600;
+      font-size: 2.8rem;
+      color: var(--rosa-palo);
+      margin: 0;
+      flex: 1 1 300px;
+    }
+
+    header h2 {
+      font-weight: 300;
+      font-size: 1.3rem;
+      color: var(--azul-profesional);
+      margin: 0;
+      flex: 1 1 300px;
+      text-align: right;
+    }
+
+    .contact-info {
+      margin-top: 15px;
+      font-size: 0.95rem;
+      color: #555;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: flex-start;
+      flex-basis: 100%;
+    }
+
+    .contact-info span {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    section {
+      margin-bottom: 35px;
+    }
+
+    section h3 {
+      font-weight: 600;
+      font-size: 1.8rem;
+      color: var(--azul-profesional);
+      border-bottom: 3px solid var(--rosa-palo);
+      padding-bottom: 6px;
+      margin-bottom: 20px;
+    }
+
+    .profile p {
+      font-weight: 300;
+      font-size: 1.05rem;
+      color: #444;
+      max-width: 800px;
+      white-space: pre-line;
+    }
+
+    .job {
+      margin-bottom: 25px;
+    }
+
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .job-title {
+      font-weight: 600;
+      font-size: 1.15rem;
+      color: var(--rosa-palo);
+    }
+
+    .job-company {
+      font-style: italic;
+      font-weight: 300;
+      font-size: 1rem;
+      color: var(--azul-profesional);
+      margin-left: 8px;
+    }
+
+    .job-dates {
+      font-size: 0.9rem;
+      color: var(--gris-suave);
+      white-space: nowrap;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+      color: #555;
+      font-size: 1rem;
+    }
+
+    ul li {
+      margin-bottom: 6px;
+    }
+
+    .list-tags {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .list-tags li {
+      background-color: var(--fondo-claro);
+      border: 2px solid var(--rosa-palo);
+      color: var(--rosa-palo);
+      padding: 6px 14px;
+      border-radius: 25px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      user-select: none;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      cursor: default;
+    }
+
+    .list-tags li:hover {
+      background-color: var(--rosa-palo);
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.85rem;
+      color: #aaa;
+      margin-top: 50px;
+      user-select: none;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      header h2 {
+        text-align: left;
+      }
+      .job-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .job-dates {
+        white-space: normal;
+        margin-top: 4px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Naomy Emyreth Vargas Redondo</h1>
+      <h2>Odontóloga</h2>
+      <div class="contact-info">
+        <span>📞 8130819371</span>
+        <span>✉️ redondoemyreth@gmail.com</span>
+        <span>📍 San Nicolás, N.L.</span>
+      </div>
+    </header>
+
+    <section class="profile">
+      <h3>Perfil Profesional</h3>
+      <p>
+Odontóloga titulada con formación en Psicología Organizacional, con experiencia en atención al cliente, ventas consultivas y reclutamiento. Busco aplicar mis conocimientos clínicos y habilidades interpersonales para brindar atención odontológica de calidad y contribuir al bienestar de los pacientes.
+      </p>
+    </section>
+
+    <section class="education">
+      <h3>Formación Académica</h3>
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <span class="job-title">Licenciatura en Odontología</span>
+            <span class="job-company">Universidad Interamericana Del Norte</span>
+          </div>
+          <div class="job-dates">Ene 2023 – Jul 2025</div>
+        </div>
+      </div>
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <span class="job-title">Licenciatura en Psicología Organizacional (Cursando)</span>
+            <span class="job-company">Universidad UTEL</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience">
+      <h3>Experiencia Laboral</h3>
+
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <span class="job-title">Asesora de Ventas</span>
+            <span class="job-company">Emme Emergencias Médicas</span>
+          </div>
+          <div class="job-dates">Sep 2024 – May 2025</div>
+        </div>
+        <ul>
+          <li>Venta de servicios prehospitalarios: ambulancias, consultorios médicos y consultas en línea.</li>
+          <li>Atención personalizada y asesoría a clientes para soluciones médicas.</li>
+          <li>Desarrollo de habilidades de ventas consultivas y manejo de objeciones.</li>
+          <li>Seguimiento y fidelización de clientes.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <span class="job-title">Auxiliar Administrativo y Cobranza</span>
+            <span class="job-company">Financiera Viva</span>
+          </div>
+          <div class="job-dates">Feb 2024 – Abr 2024</div>
+        </div>
+        <ul>
+          <li>Gestión administrativa y seguimiento a cartera.</li>
+          <li>Atención al cliente.</li>
+          <li>Manejo básico de paquetería Office.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <span class="job-title">Reclutadora</span>
+            <span class="job-company">Consorcio Jurídico</span>
+          </div>
+          <div class="job-dates">Nov 2021 – Ene 2022</div>
+        </div>
+        <ul>
+          <li>Captación de talento.</li>
+          <li>Filtros socioeconómicos, entrevistas y documentación.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <span class="job-title">Ejecutiva de Ventas</span>
+            <span class="job-company">MKI Call Center</span>
+          </div>
+          <div class="job-dates">Ago 2020 – Oct 2021</div>
+        </div>
+        <ul>
+          <li>Atención a clientes.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <span class="job-title">Reclutadora</span>
+            <span class="job-company">Aufin Monterrey</span>
+          </div>
+          <div class="job-dates">Jun 2019 – Ago 2020</div>
+        </div>
+        <ul>
+          <li>Reclutamiento masivo para perfiles administrativos.</li>
+          <li>Aplicación de pruebas psicométricas.</li>
+          <li>Seguimiento a candidatos durante proceso de ingreso.</li>
+          <li>Coordinación con gerencias para validación de perfiles.</li>
+          <li>Actualización de bases de talento.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <span class="job-title">Auxiliar de Reclutamiento</span>
+            <span class="job-company">Lavandería Karen</span>
+          </div>
+          <div class="job-dates">Mar 2017 – Jun 2019</div>
+        </div>
+        <ul>
+          <li>Publicación de vacantes operativas.</li>
+          <li>Recepción y filtro de CV.</li>
+          <li>Aplicación de entrevistas iniciales.</li>
+          <li>Entrega de formatos de ingreso y documentación.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h3>Habilidades</h3>
+      <ul class="list-tags">
+        <li>Atención al paciente</li>
+        <li>Comunicación efectiva</li>
+        <li>Trato empático</li>
+        <li>Trabajo en equipo</li>
+        <li>Autonomía</li>
+        <li>Alta capacidad de adaptación</li>
+        <li>Aprendizaje rápido</li>
+        <li>Manejo básico de Microsoft Office</li>
+        <li>Ventas consultivas</li>
+        <li>Manejo de objeciones</li>
+        <li>Reclutamiento y selección</li>
+        <li>Organización de bases de datos</li>
+      </ul>
+    </section>
+
+    <section class="tools">
+      <h3>Herramientas</h3>
+      <ul class="list-tags">
+        <li>Microsoft Office</li>
+        <li>Google Drive</li>
+        <li>Portales de empleo (OCC, Computrabajo)</li>
+        <li>Manejo de CRM</li>
+        <li>Seguimiento postventa</li>
+      </ul>
+    </section>
+
+    <section class="languages">
+      <h3>Idiomas</h3>
+      <ul class="list-tags">
+        <li>Español (Nativo)</li>
+        <li>Inglés (En curso)</li>
+      </ul>
+    </section>
+
+    <footer>
+      &copy; 2024 Naomy Emyreth Vargas Redondo
+    </footer>
+  </div>
+</body>
+</html>
